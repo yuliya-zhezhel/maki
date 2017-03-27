@@ -1,0 +1,169 @@
+.row div{}
+#mytopcontainer{margin-bottom:100px;}
+#mytabs .row div{border:none;}
+a.spoiler.collapsed:before{
+    content: '[+]';
+}
+body{height:4000px;}
+.progress-bar{width:10%;min-width: 2%;}
+
+/********************** настройка сетки masonry **********************************/
+@media screen and (max-width:767px){
+    .masonry[data-columns]:before{
+        /******** где 1 - количество колонок и .col-xs-6 - присваеваемый класс ***********************************/
+        content:'1 .col-xs-12';
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .masonry[data-columns]:before{
+         content:'2 .col-sm-6';
+    }
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+    .masonry[data-columns]:before{
+         content:'3 .col-md-4';
+    }
+}
+@media screen and (min-width:1200px){
+    .masonry[data-columns]:before{
+         content:'4 .col-sm-3';
+    }
+}
+.form-horizontal{background-image: url(images/fon_dev1.png);}
+.container-fluid{text-align:center;}
+.container-fluid img{
+  text-align:left;	
+}
+#knopki {  
+margin-right:auto;
+margin-left:auto;
+  }
+h1, h2{font-size:36px;
+  font-weight:bold;}
+.fon_dev1 p, h1, h2{ color: white;
+}
+
+#akzia1 {
+  border-width: 2.54px;
+  border-color: rgb(200, 8, 8);
+  border-style: dashed;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  bottom:50px;
+    height: 30em;
+  z-index: 52;
+  margin-right:auto;
+  margin-left:auto;
+}
+#akzia1 p{color: black;
+font-size: 36px;}
+#novinki p{color: black;}
+
+
+.zenter{
+	vertical-align:middle;
+margin-right:auto;
+margin-left:auto;
+}
+
+.fon_foot p{color:white;}
+#about p{color:white;}
+.kontakt p{color:white;}
+.kontakt{
+  background-color: rgb(200, 8, 8);
+  opacity: 0.769;
+  width: 500px;
+  height:400px;
+   position: absolute;
+   bottom: 5px;
+}
+.otz{
+	opacity:90%;
+}
+p{font-style:Georgia;
+font-size:24px;}
+
+.rect {
+  border-width: 2.54px;
+  border-color: rgb(200, 8, 8);
+  border-style: solid;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.749;
+  position: relative;
+  bottom:62px;
+  width: 298px;
+  height: 61.92px;
+  z-index: 112;
+}
+.vniz{margin-top:80px;
+margin-bottom: 50px;}
+.black{color:black;}
+
+.nbg{background-color:#950303;
+border-color: #950303;
+
+}
+.nbg_green{background-color:#012b1f;
+border-color: black;}
+.zel{
+	height:73px;
+	border-color: #012b1f;
+	border-width: 5px;
+	text-align:center;
+	vertical-align: middle;
+}
+.pad{margin-top: 20px;}
+.parallax {
+    /* The image used */
+    background-image: url('../images/fon3.png');
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url('../images/fon2.png');
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	position: relative;
+	bottom:80px;
+}
+.parallax3 {
+    /* The image used */
+    background-image: url('../images/fon_foot.png');
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fon_dev1{  
+      background: #f8f6f3 url('../images/fon_dev1.png');
+-moz-background-size: 100%; /* Firefox 3.6+ */
+-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+-o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%;
+ height: 100%; 
+ 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wid{width:70%}
